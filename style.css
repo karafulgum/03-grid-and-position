@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  font-family: Arial;
+  font-size: 12px;
 }
 
 * {
@@ -12,6 +14,7 @@ body {
 .navbar {
   background: #2196f3;
   color: #ecf0f1;
+  margin-bottom: 2rem;
   overflow: auto;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
@@ -28,10 +31,56 @@ body {
 .navbar__item {
   display: inline;
   list-style: none;
-  padding: 0 2rem 0 0;
+  padding: 0 2rem 2rem 0;
 }
 
 .navbar__item a {
   color: #ecf0f1;
   text-decoration: none;
+}
+
+.container {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.post {
+  max-width: 25rem;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+
+.post__bar {
+  width: 5rem;
+  margin: auto;
+}
+
+.post__bar p {
+  background: #2196f3;
+  color: #ecf0f1;
+  padding: 0.4rem;
+  text-align: center;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.post__title {
+  background: #fdc539;
+}
+
+.post__title p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.post__title img {
+  border-radius: 50%;
+  -webkit-transform: scale(0.75);
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+
+.post__content {
+  margin: 0.5rem;
 }
