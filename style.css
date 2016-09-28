@@ -1,8 +1,32 @@
 body {
   margin: 0px;
-  font-style: 16px;
 }
 
 * {
   box-sizing: border-box;
+  /*padding: 1rem;
+  border: 0.5rem black solid;
+  margin: 0.5rem;*/
+}
+
+.navbar, .navbar__item a {
+  background: #2196f3;
+  color: #ecf0f1;
+  text-decoration: none;
+  overflow: auto;
+}
+
+.page-title {
+  float: left;
+  padding: 0 0 0 2rem;
+}
+
+.navbar__links {
+float: right;
+}
+
+.navbar__item {
+  display: inline;
+  list-style: none;
+  padding: 0 2rem 0 0;
 }
