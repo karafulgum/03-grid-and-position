@@ -9,11 +9,11 @@ body {
   margin: 0.5rem;*/
 }
 
-.navbar, .navbar__item a {
+.navbar {
   background: #2196f3;
   color: #ecf0f1;
-  text-decoration: none;
   overflow: auto;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .page-title {
@@ -22,11 +22,16 @@ body {
 }
 
 .navbar__links {
-float: right;
+  float: right;
 }
 
 .navbar__item {
   display: inline;
   list-style: none;
   padding: 0 2rem 0 0;
+}
+
+.navbar__item a {
+  color: #ecf0f1;
+  text-decoration: none;
 }
