@@ -67,6 +67,7 @@ margin: auto;
 .post {
   display: block;
   float: left;
+  min-width: 10rem;
   width: calc(100% / 2 - 1rem - 1rem);
   margin: 1rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
@@ -87,23 +88,23 @@ margin: auto;
 
 .post__title {
   position: relative;
-  text-align: center;
   background: #fdc539;
 }
 
-.post__title p {
+.post__name {
   display: inline-block;
+  margin-left: 2rem;
   font-weight: bold;
   font-size: 16px;
 }
 
 .post__title img {
   position: absolute;
-  top: 12.5%;
+  top: 0%;
   left: -0%;
   border-radius: 50%;
   width: 2.5rem;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 10%);
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
