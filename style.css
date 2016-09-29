@@ -10,12 +10,24 @@ body {
   margin: 0.5rem;*/
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
   background: #2196f3;
   color: #ecf0f1;
   margin-bottom: 2rem;
   overflow: auto;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.spacer {
+  width: 100%;
+  height: 5rem;
 }
 
 .page-title {
@@ -48,7 +60,7 @@ body {
 }
 
 .grid {
-  max-width: 80%;
+  max-width: 60%;
 margin: auto;
 }
 
