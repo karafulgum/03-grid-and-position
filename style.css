@@ -4,8 +4,8 @@ body {
 }
 
 * {
-  /*box-sizing: border-box;
-  padding: 1rem;
+  box-sizing: border-box;
+  /*padding: 1rem;
   border: 0.5rem black solid;
   margin: 0.5rem;*/
 }
@@ -25,10 +25,6 @@ img {
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
-.spacer {
-  width: 100%;
-  height: 5rem;
-}
 
 .page-title {
   float: left;
@@ -57,17 +53,19 @@ img {
 .container {
   display: block;
   width: 100%;
+  min-width: 60%;
 }
 
 .grid {
   max-width: 60%;
-margin: auto;
+  margin: auto;
+  padding-top: 5rem;
 }
 
 .post {
   display: block;
   float: left;
-  min-width: 10rem;
+  min-width: 10%;
   width: calc(100% / 2 - 1rem - 1rem);
   margin: 1rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
@@ -78,7 +76,7 @@ margin: auto;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 5rem;
+  width: 20%;
   background: #2196f3;
   color: #ecf0f1;
   padding: 0.4rem;
@@ -107,7 +105,6 @@ margin: auto;
   transform: translate(-50%, 10%);
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
-
 
 .post__content {
   margin: 0.5rem;
